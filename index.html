@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>The Heritage House | UAE</title>
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      background: #ffffff;
+      color: #171717;
+    }
+
+    header {
+      padding: 24px 7%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      border-bottom: 1px solid #eee;
+    }
+
+    .logo {
+      font-family: Georgia, serif;
+      font-size: 24px;
+      letter-spacing: 2px;
+      font-weight: bold;
+    }
+
+    nav a {
+      text-decoration: none;
+      color: #171717;
+      margin-left: 30px;
+      font-size: 14px;
+    }
+
+    .hero {
+      min-height: 75vh;
+      background: #111;
+      color: white;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      padding: 40px 20px;
+    }
+
+    .hero p {
+      color: #c9a96e;
+      letter-spacing: 4px;
+      font-size: 13px;
+      margin-bottom: 20px;
+    }
+
+    .hero h1 {
+      font-family: Georgia, serif;
+      font-size: 58px;
+      font-weight: normal;
+      max-width: 900px;
+    }
+
+    .hero h2 {
+      margin-top: 22px;
+      font-size: 17px;
+      font-weight: normal;
+      color: #ccc;
+    }
+
+    .businesses {
+      padding: 90px 7%;
+      text-align: center;
+    }
+
+    .businesses h2 {
+      font-family: Georgia, serif;
+      font-size: 38px;
+      margin-bottom: 50px;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 20px;
+    }
+
+    .card {
+      border: 1px solid #e5e5e5;
+      padding: 45px 25px;
+      min-height: 250px;
+    }
+
+    .card span {
+      color: #b18a4b;
+      font-size: 12px;
+      letter-spacing: 2px;
+    }
+
+    .card h3 {
+      font-family: Georgia, serif;
+      margin: 18px 0;
+      font-size: 23px;
+    }
+
+    .card p {
+      line-height: 1.7;
+      color: #666;
+      font-size: 14px;
+    }
+
+    .about {
+      background: #f7f5f1;
+      padding: 90px 20%;
+      text-align: center;
+    }
+
+    .about h2 {
+      font-family: Georgia, serif;
+      font-size: 38px;
+      margin-bottom: 25px;
+    }
+
+    .about p {
+      line-height: 1.9;
+      color: #555;
+    }
+
+    footer {
+      background: #111;
+      color: #aaa;
+      text-align: center;
+      padding: 40px;
+      font-size: 13px;
+    }
+
+    footer strong {
+      color: white;
+      font-family: Georgia, serif;
+      letter-spacing: 2px;
+    }
+
+    @media(max-width: 850px) {
+      .grid {
+        grid-template-columns: 1fr;
+      }
+
+      .hero h1 {
+        font-size: 40px;
+      }
+
+      nav {
+        display: none;
+      }
+
+      .about {
+        padding: 70px 8%;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+<header>
+  <div class="logo">THE HERITAGE HOUSE</div>
+
+  <nav>
+    <a href="#">Home</a>
+    <a href="#businesses">Our Businesses</a>
+    <a href="#about">About</a>
+    <a href="#contact">Contact</a>
+  </nav>
+</header>
+
+<section class="hero">
+  <p>THE HERITAGE HOUSE · UAE</p>
+
+  <h1>Building Brands.<br>Supplying Quality.<br>Creating Experiences.</h1>
+
+  <h2>A diversified business house based in the United Arab Emirates.</h2>
+</section>
+
+<section class="businesses" id="businesses">
+
+  <h2>Our Businesses</h2>
+
+  <div class="grid">
+
+    <div class="card">
+      <span>01</span>
+      <h3>General Trading</h3>
+      <p>
+        Household essentials, kitchen products, storage,
+        lifestyle products and international trading.
+      </p>
+    </div>
+
+    <div class="card">
+      <span>02</span>
+      <h3>Le Paris Jewels</h3>
+      <p>
+        Contemporary jewellery combining elegant design,
+        quality craftsmanship and everyday luxury.
+      </p>
+    </div>
+
+    <div class="card">
+      <span>03</span>
+      <h3>Marketing</h3>
+      <p>
+        Digital marketing, branding, social media,
+        advertising and e-commerce growth solutions.
+      </p>
+    </div>
+
+    <div class="card">
+      <span>04</span>
+      <h3>Perfumes & Deodorants</h3>
+      <p>
+        Fragrances, perfumes, deodorants, private-label
+        development and wholesale distribution.
+      </p>
+    </div>
+
+  </div>
+
+</section>
+
+<section class="about" id="about">
+
+  <h2>The Heritage House</h2>
+
+  <p>
+    The Heritage House is a UAE-based diversified business group
+    operating across general trading, jewellery, marketing and
+    fragrances. We focus on developing brands, sourcing quality
+    products and building long-term relationships across the UAE
+    and international markets.
+  </p>
+
+</section>
+
+<footer id="contact">
+
+  <strong>THE HERITAGE HOUSE</strong>
+
+  <br><br>
+
+  United Arab Emirates
+
+  <br><br>
+
+  © 2026 The Heritage House. All Rights Reserved.
+
+</footer>
+
+</body>
+</html>
